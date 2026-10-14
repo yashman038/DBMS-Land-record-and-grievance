@@ -1,0 +1,6 @@
+target/
+*.war
+.idea/
+.vscode/
+# keep your real Oracle password out of Git
+src/main/resources/db.properties
