@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PattaDesk - Sign in</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="login-page">
+  <div class="login-card">
+    <div class="brand-mark">P</div>
+    <h1>PattaDesk</h1>
+    <p class="sub">Digital Land Records and Grievance Redressal Portal</p>
+
+    <form id="loginForm" autocomplete="on">
+      <label for="email">Email</label>
+      <input id="email" name="email" type="email" required autocomplete="username" placeholder="you@example.com">
+
+      <label for="password">Password</label>
+      <div class="pw-wrap">
+        <input id="password" name="password" type="password" required autocomplete="current-password">
+        <button type="button" id="togglePw">Show</button>
+      </div>
+
+      <div id="msg"></div>
+      <button class="btn btn-primary" id="loginBtn" type="submit">Login</button>
+    </form>
+    <p class="login-foot">Secure land records access</p>
+  </div>
+  <script src="js/common.js"></script>
+  <script src="js/login.js"></script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+  <!-- Session cookie is never sent on cross-site requests (extra CSRF protection). -->
+  <CookieProcessor className="org.apache.tomcat.util.http.Rfc6265CookieProcessor" sameSiteCookies="strict"/>
+</Context>
